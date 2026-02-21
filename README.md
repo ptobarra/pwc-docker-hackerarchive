@@ -27,11 +27,11 @@ Complete the `Dockerfile` so that it:
 
    ```Code
    ca-certificates
+   ```
 
    ensuring:
    - The package list is updated before installation.
    - Package lists are cleaned afterward to reduce image size.
-   ```
 
 The completed solution must work in a clean environment using only
 changes made to the `Dockerfile`.
